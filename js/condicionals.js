@@ -19,4 +19,4 @@ if(edad > 55){
     costoTotalEntradas = valorEntradaNiño;
 }
 
-console.log(``)
+console.log(`1`)
