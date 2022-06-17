@@ -96,3 +96,11 @@ paisesMundialObject.forEach((paisGanador, indice) => {
 })
 
 console.log('Brasil gano el mundial en los años: ' + brasilCampeon);
+console.log(paisesMundialObject);
+
+let paisesEnMayuscula = paisesMundialObject.map(element =>{
+    return element.name.toUpperCase();
+})
+
+console.log(paisesEnMayuscula);
+
