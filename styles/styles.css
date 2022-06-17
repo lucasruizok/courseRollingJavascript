@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.text-name{
+    color: rgb(238, 86, 26);
+}
+.text-year{
+    color:rgb(109, 62, 229);
+}
+ul,li{
+    list-style:none
+}
