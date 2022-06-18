@@ -1,0 +1,72 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Rolling Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"
+        defer>
+    </script>
+    <script src="/js/dom.js" defer> </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/pages/index.html">RollingClass</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown bg-gradient">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Condicionales y Bucles
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/pages/condicionals.html">Condicionales</a></li>
+                            <li><a class="dropdown-item" href="/pages/forEach.html">For Each</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/filter.html">Filtro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/form.html">Formulario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/dom.html">DOM</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <h1 class="text-center">Manipulacion del DOM</h2>
+            <div>
+                <h2>Botones</h2>
+                <button id="boton1" class="btn btn-danger" type="button">Soy un boton habilitado</button>
+            </div>
+            <div class="row">
+                <h2 class="col-12 my-3">Formas</h2>
+                <div id="forma" class="col-3 border border-primary forma"></div>
+                <div class="col-3">
+                    <div><button id="btnCuadrado" class="btn btn-outline-primary mb-3 w-100">Cuadrado</button></div>
+                    <div><button id="btnCirculo" class="btn btn-outline-warning w-100">Circulo</button></div>
+                </div>
+                <p id="resultadoForma"></p>
+            </div>
+            <div>
+                <h2> Operaciones </h2>
+                
+            </div>
+    </main>
+</body>
+
+</html>
